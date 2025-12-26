@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600" height="200" viewBox="0 0 600 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Green glow filter -->
+    <filter id="greenGlow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background (optional, can be transparent) -->
+  <rect width="600" height="200" fill="#0C0C0C"/>
+
+  <!-- Eye symbol ◉ -->
+  <g id="eye-symbol" filter="url(#greenGlow)">
+    <!-- Outer circle (iris) -->
+    <circle cx="300" cy="40" r="16" fill="#30A86B"/>
+    <!-- Inner circle (pupil) -->
+    <circle cx="300" cy="40" r="6" fill="#0C0C0C"/>
+  </g>
+
+  <!-- Connecting line -->
+  <line x1="300" y1="56" x2="300" y2="85" stroke="#30A86B" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- Artist name: САЙМУРР -->
+  <g id="artist-name">
+    <!-- First letter "С" in green -->
+    <text x="100" y="135" font-family="'DejaVu Sans', 'Arial Black', sans-serif"
+          font-size="52" font-weight="900" fill="#30A86B" letter-spacing="8">С</text>
+
+    <!-- Rest of the name in white -->
+    <text x="160" y="135" font-family="'DejaVu Sans', 'Arial Black', sans-serif"
+          font-size="52" font-weight="900" fill="#FCFCFA" letter-spacing="8">А Й М У Р Р</text>
+  </g>
+
+  <!-- Transliteration -->
+  <text x="300" y="165" text-anchor="middle"
+        font-family="'DejaVu Sans', 'Arial', sans-serif"
+        font-size="16" font-weight="300" fill="#8B8B8E" letter-spacing="6">s a y m u r r</text>
+
+</svg>

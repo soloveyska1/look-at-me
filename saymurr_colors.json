@@ -1,0 +1,65 @@
+{
+  "brand_name": "САЙМУРР (Saymurr)",
+  "version": "1.0",
+  "date": "2025-12-26",
+  "colors": {
+    "background": {
+      "name": "Deep Black",
+      "hex": "#0C0C0C",
+      "rgb": [12, 12, 12],
+      "usage": "Backgrounds, letterboxing, pure black screens"
+    },
+    "background_card": {
+      "name": "Dark Gray",
+      "hex": "#1A1A1A",
+      "rgb": [26, 26, 26],
+      "usage": "Card backgrounds, elevated surfaces"
+    },
+    "text_primary": {
+      "name": "Warm White",
+      "hex": "#FCFCFA",
+      "rgb": [252, 252, 250],
+      "usage": "Primary text, artist name (except first letter), track name"
+    },
+    "text_secondary": {
+      "name": "Cool Gray",
+      "hex": "#8B8B8E",
+      "rgb": [139, 139, 142],
+      "usage": "Secondary text, subtitles, transliteration"
+    },
+    "accent_green": {
+      "name": "Eye Green (BRAND COLOR)",
+      "hex": "#30A86B",
+      "rgb": [48, 168, 107],
+      "usage": "First letter 'С', eye symbol ◉, separator lines, accents",
+      "note": "THIS IS THE SIGNATURE COLOR - use consistently across all releases"
+    }
+  },
+  "gradients": {
+    "green_glow": {
+      "type": "radial",
+      "colors": ["#30A86B", "#0C0C0C"],
+      "opacity": [0.8, 0.0],
+      "usage": "Glow effect around eye symbol and first letter"
+    }
+  },
+  "accessibility": {
+    "contrast_ratio_white_on_black": 19.8,
+    "contrast_ratio_green_on_black": 4.2,
+    "wcag_aa_compliant": true,
+    "wcag_aaa_compliant": false,
+    "notes": "Green (#30A86B) should only be used for accents, not body text"
+  },
+  "export_formats": {
+    "photoshop_aco": "Use RGB values for .aco swatch file",
+    "sketch_clr": "Use hex values for .clr color file",
+    "figma": "Import as color styles using hex values",
+    "css_variables": {
+      "--color-bg": "#0C0C0C",
+      "--color-bg-card": "#1A1A1A",
+      "--color-text": "#FCFCFA",
+      "--color-text-muted": "#8B8B8E",
+      "--color-accent": "#30A86B"
+    }
+  }
+}

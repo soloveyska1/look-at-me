@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920" height="2200" viewBox="0 0 1920 2200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Film grain pattern -->
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="4" result="noise"/>
+      <feColorMatrix in="noise" type="saturate" values="0"/>
+      <feBlend in="SourceGraphic" in2="noise" mode="multiply" result="blend"/>
+      <feGaussianBlur in="blend" stdDeviation="0.5"/>
+    </filter>
+
+    <!-- Green glow -->
+    <filter id="greenGlow">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Title -->
+  <text x="960" y="60" text-anchor="middle" font-family="Arial, sans-serif"
+        font-size="32" font-weight="700" fill="#FCFCFA">
+    TITLE CARDS MOCKUP — САЙМУРР
+  </text>
+
+  <!-- ========== INTRO CARD (0-4s) ========== -->
+  <g id="intro-card">
+    <!-- Label -->
+    <text x="960" y="120" text-anchor="middle" font-family="Arial, sans-serif"
+          font-size="20" fill="#8B8B8E">
+      INTRO CARD (0-4s) — Artist Branding
+    </text>
+
+    <!-- Card background -->
+    <rect x="0" y="140" width="1920" height="1080" fill="#0C0C0C" filter="url(#grain)"/>
+
+    <!-- Letterbox bars (2.39:1) -->
+    <rect x="0" y="140" width="1920" height="140" fill="#0C0C0C"/>
+    <rect x="0" y="1080" width="1920" height="140" fill="#0C0C0C"/>
+
+    <!-- Eye symbol ◉ -->
+    <g filter="url(#greenGlow)">
+      <circle cx="960" cy="610" r="20" fill="#30A86B"/>
+      <circle cx="960" cy="610" r="8" fill="#0C0C0C"/>
+    </g>
+
+    <!-- Artist name: САЙМУРР -->
+    <g font-family="'Arial Black', sans-serif" font-size="140" font-weight="900" letter-spacing="8">
+      <!-- First letter "С" in green -->
+      <text x="620" y="750" fill="#30A86B" filter="url(#greenGlow)">С</text>
+      <!-- Rest in white -->
+      <text x="715" y="750" fill="#FCFCFA">А Й М У Р Р</text>
+    </g>
+
+    <!-- Transliteration -->
+    <text x="960" y="915" text-anchor="middle" font-family="Arial, sans-serif"
+          font-size="20" font-weight="300" fill="#8B8B8E" letter-spacing="6">
+      s a y m u r r
+    </text>
+
+    <!-- Timing indicator -->
+    <rect x="50" y="1180" width="300" height="8" fill="#30A86B"/>
+    <text x="50" y="1210" font-family="Arial, sans-serif" font-size="16" fill="#8B8B8E">
+      Timeline: 0.0s ━━━━━━━━━━━━━━━━━━━━━━━━ 4.0s
+    </text>
+  </g>
+
+  <!-- ========== OUTRO CARD (35.5-37s) ========== -->
+  <g id="outro-card" transform="translate(0, 1000)">
+    <!-- Label -->
+    <text x="960" y="120" text-anchor="middle" font-family="Arial, sans-serif"
+          font-size="20" fill="#8B8B8E">
+      OUTRO CARD (35.5-37s) — Full Information
+    </text>
+
+    <!-- Card background -->
+    <rect x="0" y="140" width="1920" height="1080" fill="#0C0C0C" filter="url(#grain)"/>
+
+    <!-- Letterbox bars -->
+    <rect x="0" y="140" width="1920" height="140" fill="#0C0C0C"/>
+    <rect x="0" y="1080" width="1920" height="140" fill="#0C0C0C"/>
+
+    <!-- Artist name: САЙМУРР (larger, top) -->
+    <g font-family="'Arial Black', sans-serif" font-size="140" font-weight="900" letter-spacing="8">
+      <text x="560" y="570" fill="#30A86B" filter="url(#greenGlow)">С</text>
+      <text x="655" y="570" fill="#FCFCFA">А Й М У Р Р</text>
+    </g>
+
+    <!-- Transliteration -->
+    <text x="960" y="730" text-anchor="middle" font-family="Arial, sans-serif"
+          font-size="18" font-weight="300" fill="#8B8B8E" letter-spacing="6">
+      s a y m u r r
+    </text>
+
+    <!-- Separator line -->
+    <line x1="860" y1="765" x2="1060" y2="765" stroke="#30A86B" stroke-width="2" opacity="0.6"/>
+
+    <!-- Track name: СМОТРЕЛА -->
+    <text x="960" y="880" text-anchor="middle" font-family="'Arial Black', sans-serif"
+          font-size="88" font-weight="700" fill="#FCFCFA">
+      СМОТРЕЛА
+    </text>
+
+    <!-- Subtitle: look at me -->
+    <text x="960" y="945" text-anchor="middle" font-family="Arial, sans-serif"
+          font-size="26" font-weight="400" fill="#8B8B8E" opacity="0.85">
+      look at me
+    </text>
+
+    <!-- Timing indicator -->
+    <rect x="1570" y="1180" width="300" height="8" fill="#30A86B"/>
+    <text x="1570" y="1210" font-family="Arial, sans-serif" font-size="16" fill="#8B8B8E">
+      Timeline: 35.5s ━━━━━━━ 37.0s
+    </text>
+  </g>
+
+  <!-- Legend -->
+  <g transform="translate(60, 2100)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#FCFCFA">
+      VISUAL HIERARCHY
+    </text>
+
+    <circle cx="10" cy="30" r="6" fill="#30A86B"/>
+    <text x="25" y="36" font-family="Arial, sans-serif" font-size="16" fill="#8B8B8E">
+      Accent Green (#30A86B) — Brand signature color
+    </text>
+
+    <rect x="4" y="50" width="12" height="12" fill="#FCFCFA"/>
+    <text x="25" y="61" font-family="Arial, sans-serif" font-size="16" fill="#8B8B8E">
+      Primary Text (#FCFCFA) — Artist & track names
+    </text>
+
+    <rect x="4" y="75" width="12" height="12" fill="#8B8B8E"/>
+    <text x="25" y="86" font-family="Arial, sans-serif" font-size="16" fill="#8B8B8E">
+      Secondary Text (#8B8B8E) — Subtitles & transliteration
+    </text>
+  </g>
+
+  <!-- Size comparison -->
+  <g transform="translate(700, 2100)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#FCFCFA">
+      SIZE HIERARCHY
+    </text>
+
+    <text x="0" y="35" font-family="Arial, sans-serif" font-size="32" font-weight="900" fill="#FCFCFA">
+      140px — САЙМУРР (Artist)
+    </text>
+
+    <text x="0" y="70" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#FCFCFA">
+      88px — СМОТРЕЛА (Track)
+    </text>
+
+    <text x="0" y="95" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#8B8B8E">
+      26px — look at me (Subtitle)
+    </text>
+  </g>
+
+</svg>
