@@ -1,0 +1,11 @@
+Band,Type,Frequency (Hz),Gain (dB),Q Factor,Slope,Priority,Description
+1,High Pass,30,0.0,0.71,12dB/oct,CRITICAL,Subsonic filter
+2,Bell Cut,35,-2.0,0.80,N/A,HIGH,Sub-bass cleanup
+3,Bell Cut,146,-4.0,3.00,N/A,CRITICAL,Bass resonance removal
+4,Bell Cut,350,-2.5,1.50,N/A,HIGH,Low-mid mud removal
+5,Bell Cut,1693,-4.0,3.00,N/A,CRITICAL,Mid resonance cut
+6,Bell Cut,2244,-3.5,3.00,N/A,CRITICAL,High-mid resonance cut
+7,Bell Boost,3000,+2.0,1.20,N/A,MEDIUM,Presence enhancement
+8,Bell Cut,3545,-3.0,2.50,N/A,HIGH,Upper-mid resonance cut
+9,Bell Cut,7916,-2.5,2.00,N/A,HIGH,High frequency resonance cut
+10,High Shelf Boost,12000,+3.0,0.70,N/A,MEDIUM,Air band enhancement

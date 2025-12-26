@@ -1,0 +1,86 @@
+{
+  "preset_name": "СМОТРЕЛА_Master_EQ",
+  "plugin": "Waves Q10 Equalizer",
+  "bands": [
+    {
+      "band": 1,
+      "type": "HPF",
+      "freq": 30,
+      "gain": 0,
+      "q": 0.707,
+      "slope": "12dB/oct"
+    },
+    {
+      "band": 2,
+      "type": "PEQ",
+      "freq": 35,
+      "gain": -2.0,
+      "q": 0.8,
+      "slope": "N/A"
+    },
+    {
+      "band": 3,
+      "type": "PEQ",
+      "freq": 146,
+      "gain": -4.0,
+      "q": 3.0,
+      "slope": "N/A"
+    },
+    {
+      "band": 4,
+      "type": "PEQ",
+      "freq": 350,
+      "gain": -2.5,
+      "q": 1.5,
+      "slope": "N/A"
+    },
+    {
+      "band": 5,
+      "type": "PEQ",
+      "freq": 1693,
+      "gain": -4.0,
+      "q": 3.0,
+      "slope": "N/A"
+    },
+    {
+      "band": 6,
+      "type": "PEQ",
+      "freq": 2244,
+      "gain": -3.5,
+      "q": 3.0,
+      "slope": "N/A"
+    },
+    {
+      "band": 7,
+      "type": "PEQ",
+      "freq": 3000,
+      "gain": 2.0,
+      "q": 1.2,
+      "slope": "N/A"
+    },
+    {
+      "band": 8,
+      "type": "PEQ",
+      "freq": 3545,
+      "gain": -3.0,
+      "q": 2.5,
+      "slope": "N/A"
+    },
+    {
+      "band": 9,
+      "type": "PEQ",
+      "freq": 7916,
+      "gain": -2.5,
+      "q": 2.0,
+      "slope": "N/A"
+    },
+    {
+      "band": 10,
+      "type": "HS",
+      "freq": 12000,
+      "gain": 3.0,
+      "q": 0.7,
+      "slope": "N/A"
+    }
+  ]
+}

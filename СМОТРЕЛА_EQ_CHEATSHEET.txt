@@ -1,0 +1,78 @@
+
+╔════════════════════════════════════════════════════════════════════════════════════╗
+║                    СМОТРЕЛА - EQ QUICK REFERENCE CHEAT SHEET                       ║
+║                              by Саймурр                                            ║
+╚════════════════════════════════════════════════════════════════════════════════════╝
+
+┌────────────────────────────────────────────────────────────────────────────────────┐
+│ CRITICAL FREQUENCIES (Must Fix!)                                                   │
+├────────────────────────────────────────────────────────────────────────────────────┤
+│ 146 Hz   │ -4.0 dB │ Q: 3.0 │ Bass resonance +35.8dB - causes boom/mud            │
+│ 1693 Hz  │ -4.0 dB │ Q: 3.0 │ Mid resonance +22.0dB - vocal harshness             │
+│ 2244 Hz  │ -3.5 dB │ Q: 3.0 │ High-mid resonance +21.9dB - aggressive sound       │
+└────────────────────────────────────────────────────────────────────────────────────┘
+
+┌────────────────────────────────────────────────────────────────────────────────────┐
+│ HIGH PRIORITY CORRECTIONS                                                          │
+├────────────────────────────────────────────────────────────────────────────────────┤
+│ 35 Hz    │ -2.0 dB │ Q: 0.8 │ Sub-bass cleanup                                    │
+│ 350 Hz   │ -2.5 dB │ Q: 1.5 │ Low-mid mud ("boxy" sound)                          │
+│ 3545 Hz  │ -3.0 dB │ Q: 2.5 │ Upper-mid resonance - listening fatigue             │
+│ 7916 Hz  │ -2.5 dB │ Q: 2.0 │ High frequency resonance - sibilance                │
+└────────────────────────────────────────────────────────────────────────────────────┘
+
+┌────────────────────────────────────────────────────────────────────────────────────┐
+│ ENHANCEMENTS                                                                       │
+├────────────────────────────────────────────────────────────────────────────────────┤
+│ 3000 Hz  │ +2.0 dB │ Q: 1.2 │ Presence boost - vocal clarity                      │
+│ 12000 Hz │ +3.0 dB │ Q: 0.7 │ Air band - openness and space                       │
+└────────────────────────────────────────────────────────────────────────────────────┘
+
+┌────────────────────────────────────────────────────────────────────────────────────┐
+│ PROCESSING ORDER                                                                   │
+├────────────────────────────────────────────────────────────────────────────────────┤
+│ 1. High-pass filter @ 30 Hz (12 dB/oct)                                           │
+│ 2. Surgical cuts: 146, 1693, 2244 Hz (use LINEAR PHASE mode!)                    │
+│ 3. Broad cuts: 35, 350, 3545, 7916 Hz                                            │
+│ 4. Musical boosts: 3000, 12000 Hz                                                │
+│ 5. Multiband compression                                                          │
+│ 6. Saturation/harmonic excitation (subtle)                                        │
+│ 7. Final limiter (True Peak: -1.0 dBTP)                                          │
+└────────────────────────────────────────────────────────────────────────────────────┘
+
+┌────────────────────────────────────────────────────────────────────────────────────┐
+│ DROP COMPARISON (@ 17.163s)                                                       │
+├────────────────────────────────────────────────────────────────────────────────────┤
+│ Sub-bass   │ Before: -77.18 dB │ After: -43.92 dB │ Change: +33.26 dB ▲          │
+│ Bass       │ Before: -48.70 dB │ After: -43.84 dB │ Change:  +4.86 dB ▲          │
+│ Mids       │ Before: -63.29 dB │ After: -55.84 dB │ Change:  +7.45 dB ▲          │
+│ High-mids  │ Before: -74.59 dB │ After: -63.48 dB │ Change: +11.11 dB ▲          │
+│ Highs      │ Before: -82.12 dB │ After: -67.97 dB │ Change: +14.15 dB ▲          │
+│ Air        │ Before: -94.20 dB │ After: -84.31 dB │ Change:  +9.89 dB ▲          │
+└────────────────────────────────────────────────────────────────────────────────────┘
+
+┌────────────────────────────────────────────────────────────────────────────────────┐
+│ TARGET LOUDNESS (Post-mastering)                                                   │
+├────────────────────────────────────────────────────────────────────────────────────┤
+│ Integrated LUFS:   -14 to -10 dB  (streaming platforms)                          │
+│ True Peak:         -1.0 dBTP      (mandatory!)                                   │
+│ Dynamic Range:     6-9 dB          (modern commercial mix)                       │
+└────────────────────────────────────────────────────────────────────────────────────┘
+
+┌────────────────────────────────────────────────────────────────────────────────────┐
+│ PRO TIPS                                                                           │
+├────────────────────────────────────────────────────────────────────────────────────┤
+│ ✓ A/B test every 30 seconds - trust your ears!                                   │
+│ ✓ Check on 3+ systems: monitors, headphones, phone speakers                      │
+│ ✓ Use LINEAR PHASE EQ for 146, 1693, 2244 Hz to preserve phase                  │
+│ ✓ Apply cuts gradually, not all at once                                          │
+│ ✓ Compare with 2-3 reference tracks in the same genre                            │
+│ ✓ Monitor with spectrum analyzer for visual feedback                             │
+│ ✗ Don't boost more than 3-4 dB at once                                           │
+│ ✗ Don't mix only in headphones - use monitors too                                │
+│ ✗ Don't forget gain staging after EQ                                             │
+└────────────────────────────────────────────────────────────────────────────────────┘
+
+═════════════════════════════════════════════════════════════════════════════════════
+Print this page and keep it next to your DAW for quick reference!
+═════════════════════════════════════════════════════════════════════════════════════
