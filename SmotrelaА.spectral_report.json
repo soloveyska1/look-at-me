@@ -1,0 +1,243 @@
+{
+  "file": "SmotrelaА.wav",
+  "sample_rate": 48000,
+  "duration": 84.719,
+  "resonances": [
+    {
+      "frequency": 52.734375,
+      "level": -43.63557434082031,
+      "prominence": 28.69476318359375
+    },
+    {
+      "frequency": 281.25,
+      "level": -53.70029830932617,
+      "prominence": 7.026218414306641
+    },
+    {
+      "frequency": 468.75,
+      "level": -53.53992462158203,
+      "prominence": 12.333885192871094
+    },
+    {
+      "frequency": 662.109375,
+      "level": -55.137413024902344,
+      "prominence": 9.264244079589844
+    },
+    {
+      "frequency": 832.03125,
+      "level": -59.8162841796875,
+      "prominence": 11.401229858398438
+    },
+    {
+      "frequency": 990.234375,
+      "level": -59.84111785888672,
+      "prominence": 12.148185729980469
+    },
+    {
+      "frequency": 1113.28125,
+      "level": -60.11161804199219,
+      "prominence": 15.429008483886719
+    },
+    {
+      "frequency": 1248.046875,
+      "level": -59.71971893310547,
+      "prominence": 17.159217834472656
+    },
+    {
+      "frequency": 1687.5,
+      "level": -66.68254089355469,
+      "prominence": 10.124191284179688
+    },
+    {
+      "frequency": 2220.703125,
+      "level": -69.02983093261719,
+      "prominence": 6.0482635498046875
+    },
+    {
+      "frequency": 2384.765625,
+      "level": -68.49118041992188,
+      "prominence": 9.283988952636719
+    },
+    {
+      "frequency": 7998.046875,
+      "level": -78.17364501953125,
+      "prominence": 8.85186767578125
+    }
+  ],
+  "dips": [
+    {
+      "frequency": 257.8125,
+      "level": -60.72651672363281,
+      "depth": 7.026218414306641
+    },
+    {
+      "frequency": 380.859375,
+      "level": -65.87380981445312,
+      "depth": 12.333885192871094
+    },
+    {
+      "frequency": 509.765625,
+      "level": -66.76171875,
+      "depth": 12.344432830810547
+    },
+    {
+      "frequency": 638.671875,
+      "level": -63.06730651855469,
+      "depth": 7.1456451416015625
+    },
+    {
+      "frequency": 761.71875,
+      "level": -71.21751403808594,
+      "depth": 11.401229858398438
+    },
+    {
+      "frequency": 902.34375,
+      "level": -71.98930358886719,
+      "depth": 12.148185729980469
+    },
+    {
+      "frequency": 1031.25,
+      "level": -75.5406265258789,
+      "depth": 15.429008483886719
+    },
+    {
+      "frequency": 1154.296875,
+      "level": -76.87893676757812,
+      "depth": 17.159217834472656
+    },
+    {
+      "frequency": 1294.921875,
+      "level": -76.80673217773438,
+      "depth": 10.124191284179688
+    },
+    {
+      "frequency": 2027.34375,
+      "level": -77.7751693725586,
+      "depth": 9.283988952636719
+    },
+    {
+      "frequency": 2314.453125,
+      "level": -75.07809448242188,
+      "depth": 6.0482635498046875
+    },
+    {
+      "frequency": 4511.71875,
+      "level": -87.0255126953125,
+      "depth": 8.85186767578125
+    }
+  ],
+  "eq_recommendations": [
+    {
+      "eq_num": 1,
+      "frequency": 52.734375,
+      "gain": -8.0,
+      "q": 4.0,
+      "filter_type": "Bell",
+      "reason": "Sub-bass resonance / rumble"
+    },
+    {
+      "eq_num": 2,
+      "frequency": 281.25,
+      "gain": -2.8104873657226563,
+      "q": 1.5,
+      "filter_type": "Bell",
+      "reason": "Low-mid boxiness"
+    },
+    {
+      "eq_num": 3,
+      "frequency": 468.75,
+      "gain": -7.400331115722656,
+      "q": 4.0,
+      "filter_type": "Bell",
+      "reason": "Low-mid boxiness"
+    },
+    {
+      "eq_num": 4,
+      "frequency": 662.109375,
+      "gain": -4.632122039794922,
+      "q": 2.5,
+      "filter_type": "Bell",
+      "reason": "Mid-range honk / harshness"
+    },
+    {
+      "eq_num": 5,
+      "frequency": 832.03125,
+      "gain": -5.700614929199219,
+      "q": 2.5,
+      "filter_type": "Bell",
+      "reason": "Mid-range honk / harshness"
+    },
+    {
+      "eq_num": 6,
+      "frequency": 990.234375,
+      "gain": -7.288911437988281,
+      "q": 4.0,
+      "filter_type": "Bell",
+      "reason": "Mid-range honk / harshness"
+    },
+    {
+      "eq_num": 7,
+      "frequency": 1113.28125,
+      "gain": -8.0,
+      "q": 4.0,
+      "filter_type": "Bell",
+      "reason": "Mid-range honk / harshness"
+    },
+    {
+      "eq_num": 8,
+      "frequency": 1248.046875,
+      "gain": -8.0,
+      "q": 4.0,
+      "filter_type": "Bell",
+      "reason": "Mid-range honk / harshness"
+    },
+    {
+      "eq_num": 9,
+      "frequency": 257.8125,
+      "gain": 2.107865524291992,
+      "q": 1.5,
+      "filter_type": "Bell",
+      "reason": "Mid-range hole / lack of body"
+    },
+    {
+      "eq_num": 10,
+      "frequency": 380.859375,
+      "gain": 4.933554077148438,
+      "q": 2.0,
+      "filter_type": "Bell",
+      "reason": "Mid-range hole / lack of body"
+    },
+    {
+      "eq_num": 11,
+      "frequency": 509.765625,
+      "gain": 4.937773132324219,
+      "q": 2.0,
+      "filter_type": "Bell",
+      "reason": "Mid-range hole / lack of body"
+    },
+    {
+      "eq_num": 12,
+      "frequency": 638.671875,
+      "gain": 2.143693542480469,
+      "q": 1.5,
+      "filter_type": "Bell",
+      "reason": "Mid-range hole / lack of body"
+    },
+    {
+      "eq_num": 13,
+      "frequency": 30,
+      "gain": 0,
+      "q": 0.7,
+      "filter_type": "HPF 12dB",
+      "reason": "Sub-sonic rumble removal"
+    },
+    {
+      "eq_num": 14,
+      "frequency": 12000,
+      "gain": 2.5,
+      "q": 0.7,
+      "filter_type": "High Shelf",
+      "reason": "Add air and openness"
+    }
+  ]
+}
